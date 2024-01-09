@@ -9,8 +9,8 @@ using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using SigSpec.AspNetCore;
-using SigSpec.AspNetCore.Middlewares;
+using Scalesoft.SigSpec.AspNetCore;
+using Scalesoft.SigSpec.AspNetCore.Middlewares;
 
 namespace Microsoft.AspNetCore.Builder
 {
@@ -41,7 +41,7 @@ namespace Microsoft.AspNetCore.Builder
             app.UseFileServer(new FileServerOptions
             {
                 RequestPath = new PathString(settings.Route),
-                FileProvider = new EmbeddedFileProvider(typeof(SigSpecApplicationBuilderExtensions).GetTypeInfo().Assembly, "SigSpec.AspNetCore.SigSpecUi")
+                FileProvider = new EmbeddedFileProvider(typeof(SigSpecApplicationBuilderExtensions).GetTypeInfo().Assembly, "Scalesoft.SigSpec.AspNetCore.SigSpecUi")
             });
 
             return app;

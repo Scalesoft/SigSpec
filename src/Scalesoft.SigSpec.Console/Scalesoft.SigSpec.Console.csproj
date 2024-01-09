@@ -8,10 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SigSpec.CodeGeneration.CSharp\SigSpec.CodeGeneration.CSharp.csproj" />
-    <ProjectReference Include="..\SigSpec.Core\SigSpec.Core.csproj" />
+    <ProjectReference Include="..\Scalesoft.SigSpec.CodeGeneration.CSharp\Scalesoft.SigSpec.CodeGeneration.CSharp.csproj" />
+    <ProjectReference Include="..\Scalesoft.SigSpec.Core\Scalesoft.SigSpec.Core.csproj" />
     <ProjectReference Include="..\HelloSignalR\HelloSignalR.csproj" />
-    <ProjectReference Include="..\SigSpec.CodeGeneration.TypeScript\SigSpec.CodeGeneration.TypeScript.csproj" />
+    <ProjectReference Include="..\Scalesoft.SigSpec.CodeGeneration.TypeScript\Scalesoft.SigSpec.CodeGeneration.TypeScript.csproj" />
   </ItemGroup>
 
 </Project>

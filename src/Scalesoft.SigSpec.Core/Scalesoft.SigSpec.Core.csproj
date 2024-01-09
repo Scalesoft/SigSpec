@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>SigSpec.Core</RootNamespace>
   </PropertyGroup>
   <PropertyGroup>
     <Owners>Rico Suter</Owners>
@@ -14,9 +15,9 @@
     <PackageTags>SignalR Specification CodeGeneration</PackageTags>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="NJsonSchema.CodeGeneration" Version="11.0.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SigSpec.Core\SigSpec.Core.csproj" />
+    <PackageReference Include="NJsonSchema" Version="11.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="NJsonSchema.NewtonsoftJson" Version="11.0.0" />
   </ItemGroup>
 </Project>

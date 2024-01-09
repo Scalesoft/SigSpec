@@ -6,7 +6,7 @@
     <Folder Include="wwwroot\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SigSpec.AspNetCore\SigSpec.AspNetCore.csproj" />
-    <ProjectReference Include="..\SigSpec.CodeGeneration.TypeScript\SigSpec.CodeGeneration.TypeScript.csproj" />
+    <ProjectReference Include="..\Scalesoft.SigSpec.AspNetCore\Scalesoft.SigSpec.AspNetCore.csproj" />
+    <ProjectReference Include="..\Scalesoft.SigSpec.CodeGeneration.TypeScript\Scalesoft.SigSpec.CodeGeneration.TypeScript.csproj" />
   </ItemGroup>
 </Project>

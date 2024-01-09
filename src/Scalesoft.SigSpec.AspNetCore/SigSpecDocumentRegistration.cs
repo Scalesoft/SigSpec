@@ -1,4 +1,4 @@
-﻿using SigSpec.AspNetCore.Middlewares;
+﻿using Scalesoft.SigSpec.AspNetCore.Middlewares;
 using SigSpec.Core;
 using System;
 using System.Collections.Generic;

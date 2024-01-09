@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using SigSpec.Core;
 
-namespace SigSpec.AspNetCore.Middlewares
+namespace Scalesoft.SigSpec.AspNetCore.Middlewares
 {
     public class SigSpecDocumentGeneratorSettings : SigSpecGeneratorSettings
     {

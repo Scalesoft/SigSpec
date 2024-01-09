@@ -23,6 +23,6 @@
     <EmbeddedResource Include="SigSpecUi\index.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SigSpec.Core\SigSpec.Core.csproj" />
+    <ProjectReference Include="..\Scalesoft.SigSpec.Core\Scalesoft.SigSpec.Core.csproj" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-﻿namespace SigSpec.AspNetCore
+﻿namespace Scalesoft.SigSpec.AspNetCore
 {
     public class SigSpecUiSettings
     {

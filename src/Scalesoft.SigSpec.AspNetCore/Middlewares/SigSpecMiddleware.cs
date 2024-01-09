@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace SigSpec.AspNetCore.Middlewares
+namespace Scalesoft.SigSpec.AspNetCore.Middlewares
 {
     internal class SigSpecMiddleware
     {

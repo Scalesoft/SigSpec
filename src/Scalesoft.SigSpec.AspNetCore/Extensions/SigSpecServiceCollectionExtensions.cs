@@ -1,5 +1,5 @@
 ﻿using System;
-using SigSpec.AspNetCore.Middlewares;
+using Scalesoft.SigSpec.AspNetCore.Middlewares;
 
 namespace Microsoft.Extensions.DependencyInjection
 {

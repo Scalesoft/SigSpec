@@ -1,4 +1,4 @@
-﻿namespace SigSpec.AspNetCore.Middlewares
+﻿namespace Scalesoft.SigSpec.AspNetCore.Middlewares
 {
     public class SigSpecSettings
     {

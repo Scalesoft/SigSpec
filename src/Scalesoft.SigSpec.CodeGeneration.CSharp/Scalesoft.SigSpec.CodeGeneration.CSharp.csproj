@@ -1,17 +1,18 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>SigSpec.CodeGeneration.CSharp</RootNamespace>
   </PropertyGroup>
   <PropertyGroup>
     <Owners>Rico Suter</Owners>
     <Authors>Rico Suter</Authors>
-    <Description>Specification and code generator for SignalR Core.</Description>
     <Version>0.4.0</Version>
+    <Description>Specification and code generator for SignalR Core.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/RicoSuter/SigSpec</PackageProjectUrl>
     <RepositoryUrl>https://github.com/RicoSuter/SigSpec.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>SignalR Specification CodeGeneration TypeScript</PackageTags>
+    <PackageTags>SignalR Specification CodeGeneration CSharp</PackageTags>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Templates\File.liquid" />
@@ -22,11 +23,11 @@
     <EmbeddedResource Include="Templates\Hub.liquid" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="NJsonSchema.CodeGeneration" Version="11.0.0" />
-    <PackageReference Include="NJsonSchema.CodeGeneration.TypeScript" Version="11.0.0" />
+    <PackageReference Include="njsonschema.codegeneration" Version="11.0.0" />
+    <PackageReference Include="njsonschema.codegeneration.csharp" Version="11.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SigSpec.Core\SigSpec.Core.csproj" />
-    <ProjectReference Include="..\SigSpec.CodeGeneration\SigSpec.CodeGeneration.csproj" />
+    <ProjectReference Include="..\Scalesoft.SigSpec.CodeGeneration\Scalesoft.SigSpec.CodeGeneration.csproj" />
+    <ProjectReference Include="..\Scalesoft.SigSpec.Core\Scalesoft.SigSpec.Core.csproj" />
   </ItemGroup>
 </Project>

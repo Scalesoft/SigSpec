@@ -5,22 +5,22 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloSignalR", "HelloSignalR\HelloSignalR.csproj", "{F953B5DD-29F5-4C92-A057-B693767E3E74}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SigSpec.Console", "SigSpec.Console\SigSpec.Console.csproj", "{014ED042-7DFB-4BE4-8B33-1EE003FF4695}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scalesoft.SigSpec.Console", "Scalesoft.SigSpec.Console\Scalesoft.SigSpec.Console.csproj", "{014ED042-7DFB-4BE4-8B33-1EE003FF4695}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SigSpec.CodeGeneration", "SigSpec.CodeGeneration\SigSpec.CodeGeneration.csproj", "{F8DEC9C8-173C-444E-BD77-36495F8DF5C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scalesoft.SigSpec.CodeGeneration", "Scalesoft.SigSpec.CodeGeneration\Scalesoft.SigSpec.CodeGeneration.csproj", "{F8DEC9C8-173C-444E-BD77-36495F8DF5C3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SigSpec.CodeGeneration.TypeScript", "SigSpec.CodeGeneration.TypeScript\SigSpec.CodeGeneration.TypeScript.csproj", "{85EC367A-63E2-4BB8-91AA-75DE422B3AC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scalesoft.SigSpec.CodeGeneration.TypeScript", "Scalesoft.SigSpec.CodeGeneration.TypeScript\Scalesoft.SigSpec.CodeGeneration.TypeScript.csproj", "{85EC367A-63E2-4BB8-91AA-75DE422B3AC0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SigSpec.Core", "SigSpec.Core\SigSpec.Core.csproj", "{AC85889F-7113-4C2E-B058-2CB7F02426F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scalesoft.SigSpec.Core", "Scalesoft.SigSpec.Core\Scalesoft.SigSpec.Core.csproj", "{AC85889F-7113-4C2E-B058-2CB7F02426F1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SigSpec.AspNetCore", "SigSpec.AspNetCore\SigSpec.AspNetCore.csproj", "{2D8AA80F-DA03-4AD6-97A3-6D465466A3C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scalesoft.SigSpec.AspNetCore", "Scalesoft.SigSpec.AspNetCore\Scalesoft.SigSpec.AspNetCore.csproj", "{2D8AA80F-DA03-4AD6-97A3-6D465466A3C1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{EC91FE8E-2EE3-479D-A4B2-342F7638060B}"
 	ProjectSection(SolutionItems) = preProject
 		..\azure-pipelines.yml = ..\azure-pipelines.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SigSpec.CodeGeneration.CSharp", "SigSpec.CodeGeneration.CSharp\SigSpec.CodeGeneration.CSharp.csproj", "{FF02610E-C750-46DC-B902-D6ED2D48BF5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scalesoft.SigSpec.CodeGeneration.CSharp", "Scalesoft.SigSpec.CodeGeneration.CSharp\Scalesoft.SigSpec.CodeGeneration.CSharp.csproj", "{FF02610E-C750-46DC-B902-D6ED2D48BF5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

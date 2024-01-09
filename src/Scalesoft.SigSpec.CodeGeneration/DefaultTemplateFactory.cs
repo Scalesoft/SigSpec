@@ -17,8 +17,8 @@ namespace SigSpec.CodeGeneration
         /// <returns>The template.</returns>
         protected override string GetEmbeddedLiquidTemplate(string language, string template)
         {
-            var assembly = Assembly.Load(new AssemblyName("SigSpec.CodeGeneration." + language));
-            var resourceName = "SigSpec.CodeGeneration." + language + ".Templates." + template + ".liquid";
+            var assembly = Assembly.Load(new AssemblyName("Scalesoft.SigSpec.CodeGeneration." + language));
+            var resourceName = "Scalesoft.SigSpec.CodeGeneration." + language + ".Templates." + template + ".liquid";
 
             var resource = assembly.GetManifestResourceStream(resourceName);
             if (resource != null)
