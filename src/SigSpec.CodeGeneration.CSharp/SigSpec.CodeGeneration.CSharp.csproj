@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Owners>Rico Suter</Owners>
     <Authors>Rico Suter</Authors>
-    <Version>0.4.0-preview001</Version>
+    <Version>0.4.0</Version>
     <Description>Specification and code generator for SignalR Core.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/RicoSuter/SigSpec</PackageProjectUrl>
@@ -22,8 +22,8 @@
     <EmbeddedResource Include="Templates\Hub.liquid" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="njsonschema.codegeneration" Version="11.0.0-preview008" />
-    <PackageReference Include="njsonschema.codegeneration.csharp" Version="11.0.0-preview008" />
+    <PackageReference Include="njsonschema.codegeneration" Version="11.0.0" />
+    <PackageReference Include="njsonschema.codegeneration.csharp" Version="11.0.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SigSpec.CodeGeneration\SigSpec.CodeGeneration.csproj" />
